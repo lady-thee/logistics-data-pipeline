@@ -1,0 +1,14 @@
+[project]
+name = "logistics-data-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "googlemaps>=4.10.0",
+    "openpyxl>=3.1.5",
+    "openrouteservice>=2.3.3",
+    "pandas>=3.0.3",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.1",
+]
